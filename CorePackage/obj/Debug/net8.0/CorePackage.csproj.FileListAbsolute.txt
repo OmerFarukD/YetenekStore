@@ -1,0 +1,12 @@
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\bin\Debug\net8.0\CorePackage.deps.json
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\bin\Debug\net8.0\CorePackage.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\bin\Debug\net8.0\CorePackage.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\obj\Debug\net8.0\CorePackage.csproj.AssemblyReference.cache
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\obj\Debug\net8.0\CorePackage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\obj\Debug\net8.0\CorePackage.AssemblyInfoInputs.cache
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\obj\Debug\net8.0\CorePackage.AssemblyInfo.cs
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\obj\Debug\net8.0\CorePackage.csproj.CoreCompileInputs.cache
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\obj\Debug\net8.0\CorePackage.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\obj\Debug\net8.0\refint\CorePackage.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\obj\Debug\net8.0\CorePackage.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\obj\Debug\net8.0\ref\CorePackage.dll

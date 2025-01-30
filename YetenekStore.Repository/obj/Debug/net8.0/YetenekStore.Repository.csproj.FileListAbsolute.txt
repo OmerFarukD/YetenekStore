@@ -1,0 +1,17 @@
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\bin\Debug\net8.0\YetenekStore.Repository.deps.json
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\bin\Debug\net8.0\YetenekStore.Repository.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\bin\Debug\net8.0\YetenekStore.Repository.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\obj\Debug\net8.0\YetenekStore.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\obj\Debug\net8.0\YetenekStore.Repository.AssemblyInfoInputs.cache
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\obj\Debug\net8.0\YetenekStore.Repository.AssemblyInfo.cs
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\obj\Debug\net8.0\YetenekStore.Repository.csproj.CoreCompileInputs.cache
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\obj\Debug\net8.0\YetenekStore.Repository.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\obj\Debug\net8.0\refint\YetenekStore.Repository.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\obj\Debug\net8.0\YetenekStore.Repository.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\obj\Debug\net8.0\ref\YetenekStore.Repository.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\bin\Debug\net8.0\CorePackage.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\bin\Debug\net8.0\YetenekStore.Models.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\bin\Debug\net8.0\CorePackage.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\bin\Debug\net8.0\YetenekStore.Models.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\obj\Debug\net8.0\YetenekStore.Repository.csproj.AssemblyReference.cache
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\obj\Debug\net8.0\YetenekS.0C1C4BCA.Up2Date

@@ -1,0 +1,11 @@
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\bin\Debug\net8.0\YetenekStore.Service.deps.json
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\bin\Debug\net8.0\YetenekStore.Service.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\bin\Debug\net8.0\YetenekStore.Service.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\net8.0\YetenekStore.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\net8.0\YetenekStore.Service.AssemblyInfoInputs.cache
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\net8.0\YetenekStore.Service.AssemblyInfo.cs
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\net8.0\YetenekStore.Service.csproj.CoreCompileInputs.cache
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\net8.0\YetenekStore.Service.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\net8.0\refint\YetenekStore.Service.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\net8.0\YetenekStore.Service.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\net8.0\ref\YetenekStore.Service.dll

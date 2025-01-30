@@ -1,0 +1,15 @@
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\bin\Debug\net8.0\YetenekStore.Models.deps.json
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\bin\Debug\net8.0\YetenekStore.Models.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\bin\Debug\net8.0\YetenekStore.Models.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\obj\Debug\net8.0\YetenekStore.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\obj\Debug\net8.0\YetenekStore.Models.AssemblyInfoInputs.cache
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\obj\Debug\net8.0\YetenekStore.Models.AssemblyInfo.cs
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\obj\Debug\net8.0\YetenekStore.Models.csproj.CoreCompileInputs.cache
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\obj\Debug\net8.0\YetenekStore.Models.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\obj\Debug\net8.0\refint\YetenekStore.Models.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\obj\Debug\net8.0\YetenekStore.Models.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\obj\Debug\net8.0\ref\YetenekStore.Models.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\bin\Debug\net8.0\CorePackage.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\bin\Debug\net8.0\CorePackage.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\obj\Debug\net8.0\YetenekStore.Models.csproj.AssemblyReference.cache
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Models\obj\Debug\net8.0\YetenekS.CD0B1FFF.Up2Date
