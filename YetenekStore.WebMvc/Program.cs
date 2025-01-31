@@ -23,7 +23,7 @@ builder.Services.AddScoped<IFileService, FileService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("Cloudinary"));
-
+builder.Services.AddScoped<IOrderService, OrderService>();
 
 builder.Services.AddIdentity<User, IdentityRole>(opt =>
 {
