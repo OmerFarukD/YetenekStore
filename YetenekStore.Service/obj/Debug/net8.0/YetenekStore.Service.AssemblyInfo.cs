@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YetenekStore.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+957a0b95ac34b47c5e1dcd843fcd7175fe4a2a90")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a5b1efee26f1f523b800eb096eac1fb3f648a1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("YetenekStore.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YetenekStore.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

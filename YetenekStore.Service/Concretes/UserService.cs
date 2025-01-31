@@ -47,7 +47,6 @@ public sealed class UserService(UserManager<User> userManager, IMapper mapper) :
         {
             // todo: ilgili hata alınırsa exception fırlat 
         }
-        
         UserResponseDto dto = mapper.Map<UserResponseDto>(user);
         return dto;
     }

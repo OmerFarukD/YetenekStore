@@ -9,3 +9,12 @@ C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\
 C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\net8.0\refint\YetenekStore.Service.dll
 C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\net8.0\YetenekStore.Service.pdb
 C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\net8.0\ref\YetenekStore.Service.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\bin\Debug\net8.0\CorePackage.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\bin\Debug\net8.0\YetenekStore.Models.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\bin\Debug\net8.0\YetenekStore.Repository.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\bin\Debug\net8.0\YetenekStore.Models.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\bin\Debug\net8.0\YetenekStore.Repository.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\bin\Debug\net8.0\CorePackage.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\net8.0\YetenekStore.Service.csproj.AssemblyReference.cache
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\net8.0\YetenekStore.Service.sourcelink.json
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Service\obj\Debug\net8.0\YetenekS.9E4998D6.Up2Date

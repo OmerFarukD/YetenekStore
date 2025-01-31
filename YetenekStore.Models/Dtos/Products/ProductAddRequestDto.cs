@@ -1,4 +1,6 @@
-﻿namespace YetenekStore.Models.Dtos.Products;
+﻿using Microsoft.AspNetCore.Http;
+
+namespace YetenekStore.Models.Dtos.Products;
 
 public sealed class ProductAddRequestDto
 {
@@ -7,4 +9,5 @@ public sealed class ProductAddRequestDto
     public int Stock { get; set; }
     public string? Description { get; set; }
     public int CategoryId { get; set; }
+    public IFormFile File { get; set; }
 }

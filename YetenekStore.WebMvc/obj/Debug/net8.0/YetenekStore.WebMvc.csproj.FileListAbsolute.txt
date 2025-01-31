@@ -149,3 +149,8 @@ C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.WebMvc\bin\Debug\n
 C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.WebMvc\bin\Debug\net8.0\YetenekStore.Models.pdb
 C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.WebMvc\obj\Debug\net8.0\YetenekStore.WebMvc.csproj.AssemblyReference.cache
 C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.WebMvc\obj\Debug\net8.0\YetenekS.B83CDCCD.Up2Date
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.WebMvc\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.WebMvc\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.WebMvc\bin\Debug\net8.0\YetenekStore.Service.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.WebMvc\bin\Debug\net8.0\YetenekStore.Service.pdb
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.WebMvc\obj\Debug\net8.0\YetenekStore.WebMvc.sourcelink.json

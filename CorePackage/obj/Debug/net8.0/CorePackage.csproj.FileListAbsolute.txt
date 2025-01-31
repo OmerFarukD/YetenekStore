@@ -10,3 +10,4 @@ C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\obj\Debug\net8.0\Co
 C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\obj\Debug\net8.0\refint\CorePackage.dll
 C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\obj\Debug\net8.0\CorePackage.pdb
 C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\obj\Debug\net8.0\ref\CorePackage.dll
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\CorePackage\obj\Debug\net8.0\CorePackage.sourcelink.json

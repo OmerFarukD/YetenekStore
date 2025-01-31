@@ -3,6 +3,10 @@ using YetenekStore.Models.Entities;
 using YetenekStore.Repository.Contexts;
 using YetenekStore.Repository.Repositories.Abstracts;
 using YetenekStore.Repository.Repositories.Concretes;
+using YetenekStore.Service.Abstracts;
+using YetenekStore.Service.Concretes;
+using YetenekStore.Service.Helpers.Cloudinary;
+using YetenekStore.Service.Mappers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +16,13 @@ builder.Services.AddDbContext<BaseDbContext>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+builder.Services.AddScoped<IFileService, FileService>();
+builder.Services.AddScoped<IProductService, ProductService>();
+
+builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("Cloudinary"));
+
 
 
 builder.Services.AddIdentity<User, IdentityRole>(opt =>
@@ -40,6 +51,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Products}/{action=Index}/{id?}");
 
 app.Run();

@@ -1,0 +1,29 @@
+﻿@model List<ProductResponseDto>
+
+
+<a asp-action="" asp-controller="" class="btn btn-outline-success">Ekle</a>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Stock</th>
+        <th scope="col">Description</th>
+        <th scope="col">CategoryName</th>
+        <th scope="col">Detaya Git</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th scope="row">@item.Name</th>
+            <td>@item.Price</td>
+            <td>@item.Stock</td>
+            <td>@item.Description</td>
+            <td>@item.CategoryName</td>
+        </tr>
+    }
+    </tbody>
+</table>

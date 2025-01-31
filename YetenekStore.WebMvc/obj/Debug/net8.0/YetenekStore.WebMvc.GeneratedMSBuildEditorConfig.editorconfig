@@ -28,8 +28,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/omerc/Desktop/2.Ekran/.net/YetenekStore/YetenekStore.WebMvc/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/omerc/Desktop/2.Ekran/.net/YetenekStore/YetenekStore.WebMvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/omerc/Desktop/2.Ekran/.net/YetenekStore/YetenekStore.WebMvc/Views/Shared/PartialViews/Layout/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xMYXlvdXRcX0Zvb3RlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/omerc/Desktop/2.Ekran/.net/YetenekStore/YetenekStore.WebMvc/Views/Shared/PartialViews/Layout/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xMYXlvdXRcX0hlYWRlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/omerc/Desktop/2.Ekran/.net/YetenekStore/YetenekStore.WebMvc/Views/Shared/_ValidationScriptsPartial.cshtml]

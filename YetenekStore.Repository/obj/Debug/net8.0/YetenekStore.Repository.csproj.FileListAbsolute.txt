@@ -15,3 +15,4 @@ C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\bin\Deb
 C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\bin\Debug\net8.0\YetenekStore.Models.pdb
 C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\obj\Debug\net8.0\YetenekStore.Repository.csproj.AssemblyReference.cache
 C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\obj\Debug\net8.0\YetenekS.0C1C4BCA.Up2Date
+C:\Users\omerc\Desktop\2.Ekran\.net\YetenekStore\YetenekStore.Repository\obj\Debug\net8.0\YetenekStore.Repository.sourcelink.json
