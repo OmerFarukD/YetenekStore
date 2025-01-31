@@ -155,6 +155,59 @@ namespace YetenekStore.Repository.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("YetenekStore.Models.Entities.Cart", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Cart");
+                });
+
+            modelBuilder.Entity("YetenekStore.Models.Entities.CartItem", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("CartId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CartId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("CartItem");
+                });
+
             modelBuilder.Entity("YetenekStore.Models.Entities.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -184,13 +237,13 @@ namespace YetenekStore.Repository.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2025, 1, 30, 10, 57, 0, 115, DateTimeKind.Utc).AddTicks(4894),
+                            CreatedDate = new DateTime(2025, 1, 31, 11, 16, 6, 785, DateTimeKind.Utc).AddTicks(4063),
                             Name = "Bilgisayar"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2025, 1, 30, 10, 57, 0, 115, DateTimeKind.Utc).AddTicks(4897),
+                            CreatedDate = new DateTime(2025, 1, 31, 11, 16, 6, 785, DateTimeKind.Utc).AddTicks(4066),
                             Name = "Telefon"
                         });
                 });
@@ -205,8 +258,8 @@ namespace YetenekStore.Repository.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("Created");
 
-                    b.Property<Guid>("ProductId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2")
@@ -218,11 +271,42 @@ namespace YetenekStore.Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductId");
-
                     b.HasIndex("UserId");
 
                     b.ToTable("Orders", (string)null);
+                });
+
+            modelBuilder.Entity("YetenekStore.Models.Entities.OrderItem", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("OrderId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("OrderItem");
                 });
 
             modelBuilder.Entity("YetenekStore.Models.Entities.Product", b =>
@@ -268,9 +352,9 @@ namespace YetenekStore.Repository.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("1632ce59-77ee-4093-af26-70e8d8815318"),
+                            Id = new Guid("ac3b05c1-8a0b-473a-a6dd-e00267900236"),
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2025, 1, 30, 10, 57, 0, 115, DateTimeKind.Utc).AddTicks(9193),
+                            CreatedDate = new DateTime(2025, 1, 31, 11, 16, 6, 785, DateTimeKind.Utc).AddTicks(9272),
                             Description = "İş görür",
                             Name = "Msi Bravo 15",
                             Price = 25000m,
@@ -405,23 +489,64 @@ namespace YetenekStore.Repository.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("YetenekStore.Models.Entities.Order", b =>
+            modelBuilder.Entity("YetenekStore.Models.Entities.Cart", b =>
                 {
+                    b.HasOne("YetenekStore.Models.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("YetenekStore.Models.Entities.CartItem", b =>
+                {
+                    b.HasOne("YetenekStore.Models.Entities.Cart", "Cart")
+                        .WithMany("CartItems")
+                        .HasForeignKey("CartId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("YetenekStore.Models.Entities.Product", "Product")
-                        .WithMany("Orders")
+                        .WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Cart");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("YetenekStore.Models.Entities.Order", b =>
+                {
                     b.HasOne("YetenekStore.Models.Entities.User", "User")
                         .WithMany("Orders")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Product");
-
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("YetenekStore.Models.Entities.OrderItem", b =>
+                {
+                    b.HasOne("YetenekStore.Models.Entities.Order", "Order")
+                        .WithMany("OrderItems")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("YetenekStore.Models.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("YetenekStore.Models.Entities.Product", b =>
@@ -435,14 +560,19 @@ namespace YetenekStore.Repository.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("YetenekStore.Models.Entities.Cart", b =>
+                {
+                    b.Navigation("CartItems");
+                });
+
             modelBuilder.Entity("YetenekStore.Models.Entities.Category", b =>
                 {
                     b.Navigation("Products");
                 });
 
-            modelBuilder.Entity("YetenekStore.Models.Entities.Product", b =>
+            modelBuilder.Entity("YetenekStore.Models.Entities.Order", b =>
                 {
-                    b.Navigation("Orders");
+                    b.Navigation("OrderItems");
                 });
 
             modelBuilder.Entity("YetenekStore.Models.Entities.User", b =>

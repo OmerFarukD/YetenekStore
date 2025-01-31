@@ -18,11 +18,11 @@ builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
+
 builder.Services.AddScoped<IFileService, FileService>();
 builder.Services.AddScoped<IProductService, ProductService>();
-
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("Cloudinary"));
-
 
 
 builder.Services.AddIdentity<User, IdentityRole>(opt =>

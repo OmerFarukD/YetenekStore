@@ -1,0 +1,44 @@
+﻿@model ProductAddRequestDto
+
+
+<form asp-action="Add" asp-controller="Products" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">İsim </label>
+        <input asp-for="Name" type="text" class="form-control">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    
+    
+    <div class="mb-3">
+        <label asp-for="Price" class="form-label">Değer </label>
+        <input asp-for="Price" type="number" class="form-control">
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    
+    <div class="mb-3">
+        <label asp-for="Stock" class="form-label">Stok </label>
+        <input asp-for="Stock" type="number" class="form-control">
+        <span asp-validation-for="Stock" class="text-danger"></span>
+    </div>
+    
+    
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label">Açıklama </label>
+        <input asp-for="Description" type="text" class="form-control">
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    
+    <div class="mb-3">
+        <label asp-for="CategoryId" class="form-label">Kategori </label>
+        <input asp-for="CategoryId" type="number" class="form-control">
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+    
+    <div class="mb-3">
+        <label asp-for="File" class="form-label">Dosya  </label>
+        <input asp-for="File" type="file" class="form-control">
+        <span asp-validation-for="File" class="text-danger"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>

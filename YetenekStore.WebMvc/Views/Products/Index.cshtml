@@ -1,29 +1,28 @@
 ﻿@model List<ProductResponseDto>
 
+<a asp-action="Add" asp-controller="Products" class="btn btn-outline-success">Ekle</a>
 
-<a asp-action="" asp-controller="" class="btn btn-outline-success">Ekle</a>
-
-<table class="table">
-    <thead>
-    <tr>
-        <th scope="col">Name</th>
-        <th scope="col">Price</th>
-        <th scope="col">Stock</th>
-        <th scope="col">Description</th>
-        <th scope="col">CategoryName</th>
-        <th scope="col">Detaya Git</th>
-    </tr>
-    </thead>
-    <tbody>
+<h2 class="text-center">Ürünler</h2>
+<div class="row">
     @foreach (var item in Model)
     {
-        <tr>
-            <th scope="row">@item.Name</th>
-            <td>@item.Price</td>
-            <td>@item.Stock</td>
-            <td>@item.Description</td>
-            <td>@item.CategoryName</td>
-        </tr>
+        <div class="col-md-4 p-2">
+            <div  class="card">
+                <img style="width: 200px; height: 200px;" src="@item.ImageUrl" alt="" class="card-img-top">
+                <div class="card-body p-2">
+                    <h5 class="card-title">
+                        @item.Name
+                    </h5>
+                    
+                    <p class="card-text">@item.Description</p>
+                    <p class="card-text"><strong>Fiyat</strong>:@item.Price TL</p>
+                    <p class="card-text"><strong>Stok Adedi</strong>:@item.Stock TL</p>
+                    <a href="" class="btn btn-outline-success">Sepete Ekle</a>
+                </div>
+            </div>
+        </div>
     }
-    </tbody>
-</table>
+    
+
+</div>
+

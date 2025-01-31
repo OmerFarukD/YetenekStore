@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using YetenekStore.Models.Dtos.Categories;
 using YetenekStore.Models.Dtos.Products;
 using YetenekStore.Models.Dtos.Users;
 using YetenekStore.Models.Entities;
@@ -16,5 +17,9 @@ public class MappingProfile : Profile
         CreateMap<ProductAddRequestDto, Product>();
         CreateMap<ProductUpdateRequestDto, Product>();
         CreateMap<Product, ProductResponseDto>();
+
+        CreateMap<Category, CategoryResponseDto>();
+        CreateMap<CategoryAddRequestDto, Category>();
+        CreateMap<CategoryUpdateRequestDto, Category>();
     }
 }

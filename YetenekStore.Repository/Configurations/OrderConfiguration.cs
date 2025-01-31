@@ -12,7 +12,7 @@ public sealed class OrderConfiguration : IEntityTypeConfiguration<Order>
         builder.Property(x => x.CreatedDate).HasColumnName("Created").IsRequired();
         builder.Property(x => x.UpdatedDate).HasColumnName("Updated");
 
-        builder.Navigation(x => x.Product).AutoInclude();
+        //builder.Navigation(x => x.Product).AutoInclude();
         builder.Navigation(x => x.User).AutoInclude();
     }
 }
